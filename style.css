@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+/*NAVBAR*/
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.brand-logo{
+    width: 130px;
+    margin-left: 60px;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 60px;
+}
+.navbar a{
+    color: hsl(238, 22%, 44%);
+    float: left;
+    margin-right: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: hsl(224, 93%, 58%);
+}
+
+/*HERO*/
+.hero{
+    width: 100vw;
+    height: 80vh;
+}
+.hero-img{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.hero-img img{
+    width: 100%;
+    padding: 40px;
+}
+.hero-text{
+    width: 50%;
+    height: 100%;
+    padding: 70px;
+}
+.hero-text h1{
+    align-self: center;
+    margin-bottom: 15px;
+}
+.hero-text p{
+    margin-bottom: 15px;
+}
+.hero-text input{
+    height: 40px;
+    width: 270px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+}
+input::placeholder{
+    font-size: 14px;
+}
+.hero-text button{
+    height: 40px;
+    width: 160px;
+    outline: none;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+
+
+
+.bg-curve{
+    width: 100%;
+}
