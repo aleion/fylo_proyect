@@ -29,12 +29,12 @@ nav{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    margin-right: 60px;
+    margin-right: 75px;
 }
 .navbar a{
     color: hsl(238, 22%, 44%);
-    float: left;
-    margin-right: 25px;
+    justify-self: end;
+    margin-left: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 15px;
