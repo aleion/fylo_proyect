@@ -10,3 +10,12 @@ const navSlider = () => {
     
 }
 navSlider();
+
+const heroSlider = () => {
+    const heroImg = document.querySelector('.hero-img');
+    const heroTxt = document.querySelector('.section-1-text');
+    heroImg.classList.add('hero-img-load');
+    heroTxt.classList.add('section-1-text-load')
+
+}
+document.addEventListener('load', heroSlider());

@@ -93,6 +93,24 @@ header{
     border-radius: 3px;
     margin-right: 20px;
 }
+.hero-img{
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 1s ease-out;
+}
+.hero-img-load{
+    transform: translate(0);
+    opacity: 1
+}
+.section-1-text{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+.section-1-text-load{
+    transform: translateY(0);
+    opacity: 1;
+}
 
 
 .section-2{
