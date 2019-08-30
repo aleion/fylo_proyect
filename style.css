@@ -323,7 +323,6 @@ footer a{
         transform: translateX(100%);
         transition: .5s ease-out;
         box-shadow: -1px 12px 10px rgba(0, 0, 0, 0.2);
-        z-index: 3;
     }
     .nav-active{
         transform: translateX(0);
