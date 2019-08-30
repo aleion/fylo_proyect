@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Fylo</title>
 </head>
@@ -51,8 +52,8 @@
 
     <img src="images/bg-curve-desktop.svg" alt="" class="bg-curve">
     <section class="section section-2">
-          <img src="images/illustration-2.svg" alt="" class="section2-img">
-          <div>
+          <img data-aos="fade-left" src="images/illustration-2.svg" alt="" class="section2-img">
+          <div data-aos="fade-right">
             <h1>Stay productive, wherever you are</h1>
             <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>  
             <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
@@ -122,5 +123,9 @@
   </footer>
 </main>
 <script src="main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

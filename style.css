@@ -55,6 +55,7 @@ header{
     justify-content: flex-end;
     width: 100%;
     margin-right: 75px;
+    z-index: 4;
 }
 .navbar a{
     color: hsl(238, 22%, 44%);
