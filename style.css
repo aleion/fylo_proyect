@@ -6,10 +6,9 @@
 body{
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
 }
 header{
-    width: 100%;
+    width: 100vw;
     height: 18vh;
     padding:  0 40px;
     display: flex;
@@ -72,11 +71,9 @@ nav{
 
 
 @media screen and (max-width: 680px){
-    body{
-        overflow:hidden !important;
-    }
     header{
         padding: 0;
+        overflow: hidden;
     }
     .logo{
         margin-left: 40px;
