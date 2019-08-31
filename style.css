@@ -72,6 +72,9 @@ nav{
 
 
 @media screen and (max-width: 680px){
+    body{
+        overflow:hidden !important;
+    }
     header{
         padding: 0;
     }
