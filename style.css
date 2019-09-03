@@ -96,31 +96,33 @@ p{
 .hero-form{
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 4fr 2fr;
     grid-gap: 20px;
 }
 .hero-form input{
-    height: 40px;
+    height: 45px;
     width: 100%;
     padding: 0 15px;
     border: none;
     box-shadow: 0 12px 30px rgba(0, 0, 0, .1);
     margin-right: 10px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 input::placeholder{
     opacity: .5;
 }
 .hero-form button{
-    height: 40px;
+    height: 45px;
     width: 100%;
     color: #fff;
     background-color: hsl(224, 93%, 58%);
     border: none;
     box-shadow: 0 12px 30px rgba(0, 0, 0, .1);
-    border-radius: 20px;
+    border-radius: 50px;
     cursor: pointer;
 }
+
+/*--------------SECTION 2----------------*/
 
 @media screen and (max-width: 891px){
     #wrapper{
@@ -198,4 +200,6 @@ input::placeholder{
     .hero-form button{
         width: 100%;
     }
+
+    /*---------------SECTION 2----------------*/
 }
