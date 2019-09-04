@@ -80,10 +80,10 @@ p{
     height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
+    grid-gap: 60px;
     justify-content: center;
     align-items: center;
-    padding: 70px 50px;
+    padding: 40px 100px;
 }
 .hero-img{
     width: 100%;
@@ -123,6 +123,94 @@ input::placeholder{
 }
 
 /*--------------SECTION 2----------------*/
+.section-2-wrapper, .section-2{
+    width: 100%;
+}
+.section-2-bgcurve{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.section-2{
+    background-color: hsl(240, 75%, 98%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    justify-content: start;
+    align-items: center;
+    padding: 30px 100px 80px 100px ;
+}
+.section-2-text{
+    display: grid;
+    grid-gap: 20px;
+}
+.section-2 > img{
+    width: 100%;
+    order: 2;
+}
+.section-2 h1{
+    margin-bottom: 20px;
+}
+.section-2 p{
+    width: 80%;
+}
+.section-2-link{
+    display: flex;
+    border-bottom: solid 1px hsl(170, 45%, 43%);
+    width: 170px;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.section-2-link img{
+    width: 22px;
+    height: 22px;
+}
+.section-2-link a{
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 330px;
+    height: 200px;
+    background-color: #fff;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+.card > img{
+    width: 15px;
+    height: 15px;
+}
+.card p{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.user-avatar{
+    display: flex;
+    align-items: center;
+}
+.user-avatar > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.avatar-name h1{
+    font-size: 13px;
+    font-weight: 700;
+}
+.avatar-name h2{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
 
 @media screen and (max-width: 891px){
     #wrapper{
@@ -202,4 +290,5 @@ input::placeholder{
     }
 
     /*---------------SECTION 2----------------*/
+    
 }
