@@ -45,8 +45,8 @@ p{
     text-decoration: none;
     margin: 20px;
     color: hsl(243, 87%, 12%);
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
 }
 .nav-list a:hover{
    color:  hsl(224, 93%, 58%);
@@ -102,14 +102,16 @@ p{
 .hero-form input{
     height: 45px;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 20px;
     border: none;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
     margin-right: 10px;
     border-radius: 50px;
+    font-weight: 600;
 }
 input::placeholder{
-    opacity: .5;
+    opacity: .8;
+    font-weight: 400;
 }
 .hero-form button{
     height: 45px;
@@ -117,7 +119,7 @@ input::placeholder{
     color: #fff;
     background-color: hsl(224, 93%, 58%);
     border: none;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
     border-radius: 50px;
     cursor: pointer;
 }
@@ -148,7 +150,7 @@ input::placeholder{
     order: 2;
 }
 .section-2 h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .section-2 p{
     width: 80%;
@@ -160,9 +162,13 @@ input::placeholder{
     justify-content: space-between;
     padding-bottom: 5px;
 }
+.section-2-link a:hover{
+    color: hsl(243, 87%, 12%);
+}
 .section-2-link img{
     width: 22px;
     height: 22px;
+    cursor: pointer;
 }
 .section-2-link a{
     text-decoration: none;
@@ -175,8 +181,8 @@ input::placeholder{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 330px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     background-color: #fff;
     padding: 12px 25px;
     margin-top: 20px;
@@ -184,31 +190,33 @@ input::placeholder{
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 .card > img{
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
 }
 .card p{
-    font-size: 13px;
+    font-size: 11px;
     letter-spacing: 1px;
+    width: 100%;
 }
 .user-avatar{
     display: flex;
     align-items: center;
 }
 .user-avatar > img{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     margin-right: 15px;
 }
 .avatar-name h1{
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 700;
+    margin:0;
 }
 .avatar-name h2{
-    font-size: 12px;
+    font-size: 10px;
+    color: hsla(0, 0%, 0%, 0.8);
     font-weight: 400;
-    margin-top: 3px;
 }
 
 
@@ -290,5 +298,28 @@ input::placeholder{
     }
 
     /*---------------SECTION 2----------------*/
-    
+    .section-2{
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+    .section-2-img{
+        order:1;
+    }
+    .section-2-text{
+        order: 2;
+    }
+    .section-2-text h1{
+        font-size: 16px;
+        margin:auto;
+    }
+    .section-2-text p{
+        width: 100%;
+    }
+    .section-2-link{
+        margin: 15px auto;
+    }
 }
