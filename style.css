@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: none !important;
 }
 body{
     width: 100%;
@@ -10,12 +11,14 @@ body{
 h1,h2,h3,h4,h5,button,input,a{
     font-family: 'Raleway', sans-serif;
 }
+input, button{
+    font-size: .9em;
+}
 h1{
     font-size: 30px;
 }
 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
 }
 #wrapper{
     width: 100%;
@@ -45,8 +48,7 @@ p{
     text-decoration: none;
     margin: 20px;
     color: hsl(243, 87%, 12%);
-    font-size: 14px;
-    font-weight: 600;
+    
 }
 .nav-list a:hover{
    color:  hsl(224, 93%, 58%);
@@ -107,11 +109,11 @@ p{
     box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
     margin-right: 10px;
     border-radius: 50px;
-    font-weight: 600;
+    
+  
 }
-input::placeholder{
-    opacity: .8;
-    font-weight: 400;
+.hero-form input::placeholder{
+    opacity: .5;
 }
 .hero-form button{
     height: 45px;
@@ -122,6 +124,7 @@ input::placeholder{
     box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
     border-radius: 50px;
     cursor: pointer;
+    
 }
 
 /*--------------SECTION 2----------------*/
@@ -130,7 +133,7 @@ input::placeholder{
 }
 .section-2-bgcurve{
     width: 100%;
-    margin-bottom: -5px;
+    margin-bottom: -8px;
 }
 .section-2{
     background-color: hsl(240, 75%, 98%);
@@ -173,7 +176,7 @@ input::placeholder{
 .section-2-link a{
     text-decoration: none;
     color: hsl(170, 45%, 43%);
-    font-size: 15px;
+    
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
 }
@@ -194,7 +197,7 @@ input::placeholder{
     height: 12px;
 }
 .card p{
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 1px;
     width: 100%;
 }
@@ -209,14 +212,14 @@ input::placeholder{
     margin-right: 15px;
 }
 .avatar-name h1{
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 14px;
     margin:0;
 }
 .avatar-name h2{
-    font-size: 10px;
-    color: hsla(0, 0%, 0%, 0.8);
+    font-size: 12px;
     font-weight: 400;
+    color: hsla(0, 0%, 0%, 0.8);
+    
 }
 
 /*------------SECTION 3-----------*/
@@ -249,7 +252,10 @@ input::placeholder{
     box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
     margin-right: 10px;
     border-radius: 50px;
-    font-weight: 600;
+}
+.section-3-form input::placeholder{
+    opacity: .8;
+    font-weight: 400;
 }
 .section-3-form button{
     height: 45px;
@@ -356,7 +362,7 @@ input::placeholder{
         order: 2;
     }
     .section-2-text h1{
-        font-size: 16px;
+        font-size: 1.2rem;
         margin:auto;
     }
     .section-2-text p{
@@ -365,7 +371,9 @@ input::placeholder{
     .section-2-link{
         margin: 15px auto;
     }
-
+    .card{
+        margin: auto;
+    }
     /*-----section 3-------*/
     .section-3{
         width: 100%;
@@ -379,7 +387,7 @@ input::placeholder{
         margin: auto;
     }
     .section-3-text h1{
-        font-size: 20px;
+        font-size: 1.4rem;
     }
     .section-3-form{
         width: 100%;
