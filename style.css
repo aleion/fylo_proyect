@@ -212,7 +212,7 @@ p{
     margin-right: 15px;
 }
 .avatar-name h1{
-    font-size: 14px;
+    font-size: .9rem;
     margin:0;
 }
 .avatar-name h2{
@@ -374,6 +374,11 @@ p{
     .card{
         margin: auto;
     }
+    .avatar-name h1{
+        font-size: .9rem;
+        margin:0;
+    }
+
     /*-----section 3-------*/
     .section-3{
         width: 100%;
