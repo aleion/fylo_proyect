@@ -1,5 +1,5 @@
 const burgerBtn = () =>{
-    const burger = document.querySelector('.burger');
+    const burger = document.querySelector('.toggler');
     const navList = document.querySelector('.nav-list');
     const navBar = document.querySelector('.navbar');
     const burgerL1 = document.querySelector('.line1'); 
