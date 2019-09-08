@@ -289,7 +289,7 @@ p{
     color: white;
     width: 100%;
     height: auto;
-    padding: 120px 70px;
+    padding: 80px 60px;
 }
 .footer-grid a{
     color: white;
@@ -521,5 +521,26 @@ p{
         width: 100%;
         margin-bottom: 20px;
     }
-    
+
+    /*-------------FOOTER-----------------*/
+    .footer-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 60px;
+        background-color: hsl(243, 87%, 12%);
+        color: white;
+        width: 100%;
+        height: auto;
+        padding: 50px 40px;
+    }
+    .footer-col-1{
+        justify-content: center;
+    }
+    .footer-col-2, .footer-col-3{
+        justify-content: center;
+    }
+    .footer-col-2 a, .footer-col-3 a{
+        justify-self: center;
+        margin: 8px;
+    }
 }
